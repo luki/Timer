@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FD0B0801DBBC64100F822BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B07F1DBBC64100F822BD /* AppDelegate.swift */; };
-		4FD0B0821DBBC64100F822BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B0811DBBC64100F822BD /* ViewController.swift */; };
-		4FD0B0851DBBC64100F822BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0B0831DBBC64100F822BD /* Main.storyboard */; };
+		4FD0B0821DBBC64100F822BD /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B0811DBBC64100F822BD /* StopViewController.swift */; };
 		4FD0B0881DBBC64100F822BD /* Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B0861DBBC64100F822BD /* Timer.xcdatamodeld */; };
 		4FD0B08A1DBBC64100F822BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0B0891DBBC64100F822BD /* Assets.xcassets */; };
 		4FD0B08D1DBBC64100F822BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0B08B1DBBC64100F822BD /* LaunchScreen.storyboard */; };
@@ -18,8 +17,7 @@
 /* Begin PBXFileReference section */
 		4FD0B07C1DBBC64100F822BD /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD0B07F1DBBC64100F822BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FD0B0811DBBC64100F822BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FD0B0841DBBC64100F822BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD0B0811DBBC64100F822BD /* StopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
 		4FD0B0871DBBC64100F822BD /* Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timer.xcdatamodel; sourceTree = "<group>"; };
 		4FD0B0891DBBC64100F822BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD0B08C1DBBC64100F822BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4FD0B07F1DBBC64100F822BD /* AppDelegate.swift */,
-				4FD0B0811DBBC64100F822BD /* ViewController.swift */,
-				4FD0B0831DBBC64100F822BD /* Main.storyboard */,
+				4FD0B0811DBBC64100F822BD /* StopViewController.swift */,
 				4FD0B0891DBBC64100F822BD /* Assets.xcassets */,
 				4FD0B08B1DBBC64100F822BD /* LaunchScreen.storyboard */,
 				4FD0B08E1DBBC64100F822BD /* Info.plist */,
@@ -129,7 +126,6 @@
 			files = (
 				4FD0B08D1DBBC64100F822BD /* LaunchScreen.storyboard in Resources */,
 				4FD0B08A1DBBC64100F822BD /* Assets.xcassets in Resources */,
-				4FD0B0851DBBC64100F822BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD0B0821DBBC64100F822BD /* ViewController.swift in Sources */,
+				4FD0B0821DBBC64100F822BD /* StopViewController.swift in Sources */,
 				4FD0B0881DBBC64100F822BD /* Timer.xcdatamodeld in Sources */,
 				4FD0B0801DBBC64100F822BD /* AppDelegate.swift in Sources */,
 			);
@@ -149,14 +145,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4FD0B0831DBBC64100F822BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FD0B0841DBBC64100F822BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4FD0B08B1DBBC64100F822BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,6 +259,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.lukasmuller.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.lukasmuller.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -306,6 +296,7 @@
 				4FD0B0931DBBC64100F822BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
